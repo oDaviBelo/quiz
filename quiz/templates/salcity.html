@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Itens do Banco de Dados</title>
+</head>
+<body>
+    <h1>db</h1>        
+    <main>
+        {%for item in items%}
+        <p>{{item.pergunta}}</p>
+        <img src='{{item.imagem_localizacao}}' alt="" style="height: 260px;">
+        <ul>
+            <button>{{item.resposta_correta}}</button>
+            <button>{{item.resposta_1}}</button>
+            <button>{{item.resposta_2}}</button>
+        </ul>
+        {%endfor%}
+    </main>
+    </main>
+</body>
+</html>
+
+    
+</body>
+</html>
