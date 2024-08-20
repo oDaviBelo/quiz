@@ -1,0 +1,47 @@
+[
+    [
+        6,
+        "Qual é o tipo de vegetação predominante em Salvador?",
+        "salvador",
+        "Mata Atlântica",
+        "Cerrado",
+        "Deserto",
+        "../static/assets/mataatlantica.jpg"
+    ],
+    [
+        3,
+        "Qual dos bairros está situado na região leste da cidade?",
+        "Ondina",
+        "Ondina",
+        "Graça",
+        "Pituba",
+        "../static/assets/ondina.jpeg"
+    ],
+    [
+        7,
+        "Qual é a característica do clima de Salvador?",
+        "salvador",
+        "Tropical úmido",
+        "Semiárido",
+        "Equatorial",
+        "../static/assets/tropical.jpg"
+    ],
+    [
+        1,
+        "Qual dos bairros é conhecido por suas dunas?",
+        "Imbuí",
+        "Imbuí",
+        "Barra",
+        "Cajazeiras",
+        "../static/assets/imbui.jpg"
+    ],
+    [
+        10,
+        "Qual é a característica das áreas de encosta em Salvador?",
+        "",
+        "Encostas íngremes",
+        "Encostas suave",
+        "Nenhuma",
+        "../static/assets/encosta.jpg"
+    ]
+]

@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital@1&family=Open+Sans:ital@1&display=swap');
+
+*{   
+    font-family:'Josefin Sans';
+}
+.resultado_txt{
+    display: none;
+}
+
+body {
+    pointer-events:all;
+    background-color: #585ff2;
+}
+
+.quiz_container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    width: 50vw;
+    margin: 0 auto;
+    padding: 0;
+    border-radius: 3rem 3rem 3rem 3rem;
+    
+}
+.top_quiz{
+    position: relative;
+}
+.quiz_container .background{
+    height: 25vh;
+    width: 50vw;
+    border-radius: 3rem 3rem 0rem 0rem;
+}
+
+.quiz_container .number_question{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    width: 8vw;
+    background-color: #585ff2;
+    position: absolute;
+    bottom: 0;
+    top: 1;
+    margin-left: 20vw;
+    border-radius: 1rem;
+}
+.quiz_container .question{
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500
+}
+.quiz_container .image_question{
+    height: 40vh;
+    width: 24.5vw;
+    border-radius: 2rem;
+
+}
+.options{
+    display: flex;
+}
+.options button{
+    margin:0.5rem;
+    height: 5rem;
+    width: 8rem;
+    background-color: #ccc;
+    border-radius: 2rem;
+    cursor: pointer;
+    border: none;
+}
+
+.options button:hover{
+    border:solid #585ff2;
+}
+
+.final_result{
+    display: none;
+}

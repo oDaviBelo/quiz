@@ -1,27 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Itens do Banco de Dados</title>
+    <title>Quiz Dinâmico</title>
+    <link rel="stylesheet" href="../static/style.css">
 </head>
 <body>
-    <h1>db</h1>        
-    <main>
-        {%for item in items%}
-        <p>{{item.pergunta}}</p>
-        <img src='{{item.imagem_localizacao}}' alt="" style="height: 260px;">
-        <ul>
-            <button>{{item.resposta_correta}}</button>
-            <button>{{item.resposta_1}}</button>
-            <button>{{item.resposta_2}}</button>
-        </ul>
-        {%endfor%}
-    </main>
-    </main>
-</body>
-</html>
-
     
+    <div class="quiz_container">
+        <div class="top_quiz">
+            <img class='background' src="../static/assets/background.jpg" alt="">
+            <div class="number_question">
+                <h3 class="current_question"></h3>
+            </div>
+        </div>
+        <h2 class="question"></h2>
+        <img class="image_question" src="" alt="" srcset="">
+        <div class="scoreboard">
+            <h1 class="final_result"></h1>
+        </div>
+        <div class="options">
+            <button class="button button1"></button>
+            <button class="button button2"></button>
+            <button class="button button3"></button>
+        </div>
+        
+    </div>
+
+    <script src="../static/script/script.js"></script>
 </body>
 </html>
